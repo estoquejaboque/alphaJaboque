@@ -1,0 +1,73 @@
+Bling | Blibioteca (version 1)
+
+put_price_bl(Object sku, Object store_id, Object product_id, Object title, Object bn_price, Object bn_cost, Object ln_price, Object ln_promo, Object token_bling)
+Arguments:
+Nome	Tipo	Descrição
+sku	Object	
+store_id	Object	
+product_id	Object	
+title	Object	
+bn_price	Object	
+bn_cost	Object	
+ln_price	Object	
+ln_promo	Object	
+token_bling	Object	
+
+get_nfe(Object key)
+Arguments:
+Nome	Tipo	Descrição
+key	Object	
+
+putPriceStoreHost(Object sku, Object store_id, Object product_id, Object price, Object promo, Object token_bling, Object host)
+Arguments:
+Nome	Tipo	Descrição
+sku	Object	
+store_id	Object	
+product_id	Object	
+price	Object	
+promo	Object	
+token_bling	Object	
+host	Object	
+
+get_product_bl(Object sku, Object store, Object token_bling)
+Arguments:
+Nome	Tipo	Descrição
+sku	Object	
+store	Object	
+token_bling	Object	
+
+put_price_b(Object sku, Object title, Object price, Object cost, Object token_bling)
+Arguments:
+Nome	Tipo	Descrição
+sku	Object	
+title	Object	
+price	Object	
+cost	Object	
+token_bling	Object	
+
+get_product(Object sku, Object token_bling)
+Arguments:
+Nome	Tipo	Descrição
+sku	Object	
+token_bling	Object	
+
+get_nfe_ipi(Object key)
+Arguments:
+Nome	Tipo	Descrição
+key	Object	
+
+put_price_l(Object sku, Object store_id, Object product_id, Object price, Object promo, Object token_bling)
+Arguments:
+Nome	Tipo	Descrição
+sku	Object	
+store_id	Object	
+product_id	Object	
+price	Object	
+promo	Object	
+token_bling	Object	
+
+get_products(Object page, Object token)
+Arguments:
+Nome	Tipo	Descrição
+page	Object	
+token	Object	
